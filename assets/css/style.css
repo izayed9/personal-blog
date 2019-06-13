@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.decoblog{
+    background-color: rgba(19, 18, 18, 0.904);
+    height: 121px;
+    display: flex;
+    justify-content: center;
+}
+.decoblog .burger-menu{
+    position: absolute;
+    left: 20px;
+    background-color: transparent;
+    color: white;
+    top: 5px;
+}
+.decoblog h2{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: white;
+}
+.decoblog .social-icon{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.decoblog .social-icon .icon{
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+.hero-img{
+    background: url(../img/hero-1.png);
+    height: 100vh;
+    width: 1307px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+.hero-content{
+    position: absolute;
+    left: 68px;
+    top: 190px;
+    text-align: left;
+}
+.hero-content p{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.hero-content h1{
+    font-size: 34px;
+    letter-spacing: 6px;
+}
+.ellipsis{
+    position: absolute;
+    color: white;
+    right: 96px;
+    bottom: 120px;
+    font-size: 26px;
+}
+.arrow p{
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    right: 5px;
+}
+.arrow .up-arrow{
+    position: absolute;
+    right: 57px;
+    top: 40px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.arrow .down-arrow{
+    position: absolute;
+    right: 57px;
+    bottom: 23px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
